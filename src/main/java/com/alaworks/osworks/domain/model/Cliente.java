@@ -53,6 +53,7 @@ public class Cliente {
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
 		return result;
 	}
+	
 	/* Criando o equals para poder comparar os OBJ */
 	@Override
 	public boolean equals(Object obj) {
